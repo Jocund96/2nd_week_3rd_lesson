@@ -59,7 +59,7 @@ public class TV {
     }
     public void volumeUp(){
         volumeLevel++;
-        volumeLevel= volumeLevel%120;
+        volumeLevel= volumeLevel%7;
         outVolumeLevel(volumeLevel);
     }
 
